@@ -1,0 +1,29 @@
+{
+  "server_ip": {
+    "description": "服务端监听地址(IP)",
+    "type": "string",
+    "hint": "设置服务器监听地址，默认监听全部：0.0.0.0",
+    "default": "0.0.0.0",
+    "obvious_hint": true
+  },
+  "server_port":{
+    "description": "服务端监听端口",
+    "type": "int",
+    "hint": "设置服务器监听端口，默认6215",
+    "default": 6215,
+    "obvious_hint": true
+  },
+  "token": {
+    "description": "服务端ws-token",
+    "type": "string",
+    "hint": "建议设置强密码",
+    "default": "mcqlink",
+    "obvious_hint": true
+  },
+  "enable_session":{
+    "description": "启用群聊/私聊",
+    "type": "list",
+    "hint": "启用群聊列表，填写群聊session_id(用 /sid 获取)，不填无法工作",
+    "default": ["default:GroupMessage:123456789"]
+  }
+}
