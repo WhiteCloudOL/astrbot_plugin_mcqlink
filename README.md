@@ -4,11 +4,19 @@
 > Minecraft Bukkit/Spigot/Paper插件：https://github.com/WhiteCloudOL/MCQLinkPlugin  
 
 # 介绍/Intro
+## 它能做什么？
+1. 建立websocket连接  
+2. 收发事件消息，处理消息逻辑，转化为可读语言  
 
+## 如何使用？
+不可单独使用，此为websocket服务端，需要连接至websocket客户端  
+搭配用于QQ与Minecraft通讯的Bukkit插件可见 https://github.com/WhiteCloudOL/MCQLinkPlugin  
+理论上你也可以参照此消息格式独立开发设计一个模组/插件用于连接此服务端  
 
-## 安装/Install
+## 安装/Install  
+
 ### 自动安装
-Astrbot插件市场搜索 mcstatus 即可自动下载  
+Astrbot插件市场搜索 mcqlink 即可自动下载  
 
 ### 手动安装
 1. 方式一：直接下载：  
